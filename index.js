@@ -47,6 +47,7 @@ const getShortPositions = makeApiGetReq('v1/shortposition')
 
 module.exports = {
   apiGetReq,
+  finsynApi: makeApiGetReq,
   getActivities,
   getSecurityProfile,
   getShortPositions,
